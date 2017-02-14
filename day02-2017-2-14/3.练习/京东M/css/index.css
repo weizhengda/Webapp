@@ -89,16 +89,8 @@ body{
 }
 .banner img{
     width:100%;
-    animation:move 2s linear infinite;
 }
-@keyframes move{
-    0%{transform: translate(320px,-350px)}
-    20%{}
-    40%{}
-    60%{}
-    80%{}
-    100%{transform: translate(-320px,0px)}
-}
+
 /*导航条*/
 .jd_nav{
     width: 100%;
