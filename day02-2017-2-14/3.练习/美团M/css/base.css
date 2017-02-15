@@ -15,6 +15,8 @@ html{
 body{
     font-family: "Microsoft YaHei",sans-serif;/*第二个是手机的一个默认的字体*/
     color: #000;
+    background: #f0efed;
+    font-size: 0.16rem;
 }
 
 a{
@@ -68,7 +70,6 @@ input,textarea{
 [class^='icon-'],[class*=' icon-']{
     font-family: "iconfont" ;
     font-style: normal;
-
 }
 
 
@@ -77,8 +78,6 @@ input,textarea{
     font-style:normal;
     font-family:'iconfont';
 }
-
-
 .icon-geren:before {
     content: "\e619";
     font-size: .5rem;
@@ -86,7 +85,7 @@ input,textarea{
 }
 
 .icon-dianying:before {
-    content: "\e616";
+    content: "\e60d";
     font-size:50px;
     background: #ffffff;
 }
@@ -95,28 +94,54 @@ input,textarea{
 
 .icon-meishi:before {
     content: "\e605";
-   font-size:.5rem;
+    font-size:.5rem;
+    color:#fff;
 }
 
-.icon-jiudian:before { content: "\e60f"; }
+.icon-jiudian:before {
+    content: "\e60f";
+    font-size:.5rem;
+    color:#fff;
+}
 
-.icon-ktv:before { content: "\e614"; }
+.icon-ktv:before { content: "\e614";font-size:.5rem; color:#fff; }
 
-.icon-xiaochikuaican:before { content: "\e62b"; }
+.icon-xiaochikuaican:before { content: "\e62b";font-size:.5rem;  color:#fff;}
 
 .icon-sousu:before {
     content: "\e648";
     font-size:.3rem;
 }
 
-.icon-xiuxianyule:before { content: "\e646"; }
+.icon-xiuxianyule:before { content: "\e646"; font-size:.5rem; color:#fff;}
 
-.icon-huoche:before { content: "\e64d"; }
+.icon-huoche:before { content: "\e64d";font-size:.5rem; color:#fff; }
 
-.icon-waimai:before { content: "\e61a"; }
+.icon-waimai:before { content: "\e61a";font-size:.5rem; color:#fff; }
 
-.icon-liren:before { content: "\e84b"; }
+.icon-liren:before { content: "\e84b"; font-size:.5rem; color:#fff;}
 
-.icon-zhoubianyou:before { content: "\e607"; }
+.icon-zhoubianyou:before { content: "\e607";font-size:.5rem; color:#fff; }
 
-.icon-hcpyd:before { content: "\e629"; }
+.icon-hcpyd:before { content: "\e629"; font-size:.5rem; color:#fff;}
+.icon-xiangxia:after{
+    content: "\e611";
+    color:#666;
+    font-size: .25rem;
+}
+
+.icon-xiangzuojiantou:before {
+    content: "\e63e";
+    font-size:.6rem;
+    color:#fff;
+}
+
+
+.icon-wai:before { content: "\e606"; }
+.icon-xingxing:before { content: "\e600"; font-size: .3rem;color:#fd9d21;}
+.icon-xingxing1:before { content: "\e601";font-size: .3rem;color:#fd9d21; }
+.icon-tuan:after {
+    content: "\e689";
+  font-size: .4rem;
+    color:#06c1ae;
+}
