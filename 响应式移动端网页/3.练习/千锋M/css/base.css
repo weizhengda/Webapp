@@ -1,0 +1,29 @@
+html{
+    font-size: 625%;
+}
+body{
+    font-size: .16rem;
+}
+*,::before,::after{
+    margin: 0;
+    padding:0;
+    /*移动端需要改变盒子计算模型*/
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #3a3838;
+}
+
+
+/*清除浮动*/
+.clearfix::before,
+.clearfix::after{
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+    clear: both;
+}
