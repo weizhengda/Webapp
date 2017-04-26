@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery.js"></script>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    $(function () {
+        $.ajax({
+        	url:"http://route.showapi.com/213-4?showapi_appid=36571&showapi_sign=33cf84579cde496584b9861ddd8bf905&topid=5",
+			cache: true,
+			type: 'get',
+			dataType: 'json',
+			crossDomain: true,
+			jsonp: 'callback',
+			success: function(data) {
+              var songList=data.showapi_res_body.pagebean.songlist;
+                console.log(songList);
+				for (var i = 0; i < 10; i++) {
+                   var h1=$('h3');
+                   $(h1).html(songList[i].songname);
+                   console.log(songList[i].songname);
+                   $('body').append(h1);
+				}
+			}
+        })
+	});
+
+
+</script>
