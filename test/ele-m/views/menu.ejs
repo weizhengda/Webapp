@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel='stylesheet' href='/css/base.css' />
+    <link rel='stylesheet' href='/css/menu.css' />
+</head>
+<body>
+   <header>
+       <div href="#" class="item">
+           <a href="/"><</a>
+           <img src="images/img1.jpeg" alt="">
+           <ul>
+               <li><h2>台滋味（深圳西丽店）</h2></li>
+               <li class="li2"><a href="shop">></a></li>
+               <li></li>
+           </ul>
+
+       </div>
+   </header>
+  <nav>
+      <a href="#">商品</a>
+      <a href="#">评价</a>
+  </nav>
+  <section>
+      <div class="left">
+          <a href="#0" >优惠</a>
+          <a href="#1">本月主推</a>
+          <a href="#2">经典套餐</a>
+          <a href="#3">人气双拼</a>
+          <a href="#4">台式便当</a>
+          <a href="#5">休闲小食</a>
+          <a href="#6">营养汤品</a>
+          <a href="#7">饮品奶制品</a>
+      </div>
+      <div class="right">
+          <% for (var i = 0; i <arr.length; i++) {%>
+           <h2 id="<%=i%>"><%=arr[i].name%></h2>
+            <% for (var j = 0; j <arr[i].foods.length; j++) {%>
+            <div class="item">
+                <img src="images/food1.jpeg" alt="">
+                   <ul>
+                        <li><%=arr[i].foods[j].name%></li>
+                        <li class="li2"><%=arr[i].foods[j].tips%></li>
+                        <li class="li3">￥<%=arr[i].foods[j].specfoods[0].price%></li>
+                     </ul>
+                 </div>
+            <%}%>
+          <%}%>
+      </div>
+  </section>
+  <footer>
+      <div class="left"></div>
+      <div class="right">
+          <a href="#">去结算</a>
+      </div>
+  </footer>
+</body>
+</html>
