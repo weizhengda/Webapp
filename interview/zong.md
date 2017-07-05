@@ -47,3 +47,22 @@
 * 其次在手机上面的默认浏览器测试 （ios android  多个手机）
 * 微信里面测试
 * Uc浏览器测试
+
+
+5. 你怎么看待Web App 、hybrid App、Native App？
+
+
+用途：
+	Web App 相当于移动端web页面,用途非常广相当于手机上面的网站。  有利于百度收录
+	hybrid App、Native App	 安装在手机上面的app
+
+用户体验：
+	Web App 、hybrid App、Native App  从左向用用户体验越来越好
+
+运行环境：
+	Web App浏览器运行  或者微信里面运行
+	hybrid App、Native App 安装到手机上面的
+
+		
+开发成本    学习成本   维护成本：
+	Web App 、hybrid App、Native App  成本一个比一个高 从左向右
