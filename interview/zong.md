@@ -76,11 +76,3 @@
 Rem是根据html的font-size 来设定的。
 
 7. 移动端的兼容性问题
-
- * jquery的300ms点击延迟问题 
-   * zepto.js的tap()方法处理点击事件
-   * fastclick.js
-   * touch.js
-
-* 1px问题(移动端无法识别0.5px)
-  * 用伪类选择器after,设置为1px,在缩小0.5倍
